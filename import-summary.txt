@@ -1,0 +1,55 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* default.properties
+* proguard.cfg
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* C:\projets\_android\Android_Pusher-stable-0.3\ => app\src\main\java\
+* C:\projets\_android\Android_Pusher-stable-0.3\.gitignore => app\src\main\resources\.gitignore
+* C:\projets\_android\Android_Pusher-stable-0.3\library\.classpath => app\src\main\resources\library\.classpath
+* C:\projets\_android\Android_Pusher-stable-0.3\library\.project => app\src\main\resources\library\.project
+* C:\projets\_android\Android_Pusher-stable-0.3\library\.settings\org.eclipse.jdt.core.prefs => app\src\main\resources\library\.settings\org.eclipse.jdt.core.prefs
+* C:\projets\_android\Android_Pusher-stable-0.3\library\default.properties => app\src\main\resources\library\default.properties
+* C:\projets\_android\Android_Pusher-stable-0.3\library\pom.xml => app\src\main\resources\library\pom.xml
+* C:\projets\_android\Android_Pusher-stable-0.3\library\project.properties => app\src\main\resources\library\project.properties
+* C:\projets\_android\Android_Pusher-stable-0.3\README.md => app\src\main\resources\README.md
+* .classpath => app\src\main\resources\sample\.classpath
+* .project => app\src\main\resources\sample\.project
+* .settings\org.eclipse.jdt.core.prefs => app\src\main\resources\sample\.settings\org.eclipse.jdt.core.prefs
+* AndroidManifest.xml => app\src\main\resources\sample\AndroidManifest.xml
+* default.properties => app\src\main\resources\sample\default.properties
+* proguard.cfg => app\src\main\resources\sample\proguard.cfg
+* project.properties => app\src\main\resources\sample\project.properties
+* res\ => app\src\main\res\
+* res\drawable-hdpi\icon.png => app\src\main\resources\sample\res\drawable-hdpi\icon.png
+* res\drawable-ldpi\icon.png => app\src\main\resources\sample\res\drawable-ldpi\icon.png
+* res\drawable-mdpi\icon.png => app\src\main\resources\sample\res\drawable-mdpi\icon.png
+* res\layout\main.xml => app\src\main\resources\sample\res\layout\main.xml
+* res\values\strings.xml => app\src\main\resources\sample\res\values\strings.xml
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
